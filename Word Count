@@ -1,0 +1,14 @@
+def word_count(str):
+    counts = dict()
+    words = str.split()
+
+    for word in words:
+        if word in counts:
+            counts[word] += 1
+        else:
+            counts[word] = 1
+
+    return counts
+
+print( word_count('The India Gate formerly known as the All India War Memorial is a war memorial located astride the Rajpath on the eastern edge of the ceremonial axis of New Delhi formerly called Kingsway. It stands  a memorial to soldiers of the British Indian Army who died in the First World War in France Flanders Mesopotamia Persia East Africa Gallipoli and elsewhere in the Near and the Far East and the third Anglo-Afghan War servicemens names, including some soldiers and officers from the United Kingdom, are inscribed on the gate. Designed by Sir Edwin Lutyens, the gate evokes the architectural style of the triumphal arch such as the Arch of Constantine, in Rome, and is often compared to the Arc de Triomphe in Paris, and the Gateway of India in Mumbai. Following the Bangladesh Liberation war in , a structure consisting of a black marble plinth with a reversed rifle, capped by a war helmet and bounded by four eternal flames, was built beneath the archway. This structure, called Amar Jawan Jyoti (Flame of the Immortal Soldier), has since served as Indias tomb of the unknown soldier. India Gate is counted amongst the largest war memorials in India and every Republic Day, the Prime Minister visits the gate to pay their tributes to the Amar Jawan Jyoti, following which the Republic Day parade starts. The memorial-gate is also a popular spot for protests by the civil society in New Delhi.'))
+
