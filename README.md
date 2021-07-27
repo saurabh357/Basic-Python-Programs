@@ -2,6 +2,7 @@ Sequence Data Type:-
 
 List - Mutable
 Tuple - Immutable
+
 Methods- len(),min(),max()
 
 The Difference between List and Tuple -
